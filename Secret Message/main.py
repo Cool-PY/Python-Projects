@@ -1,8 +1,8 @@
 Alphabets = 'abcdefghijklmnopqrstuvwxyz'
-reversedAlphates = 'zyxwvutsrqponmlkjihgfedcba'
+reversedAlphabtes = 'zyxwvutsrqponmlkjihgfedcba'
 
 Alphabets = list(Alphabets)
-reversedAlphates = list(reversedAlphates)
+reversedAlphabtes = list(reversedAlphabtes)
 
 while 1:
     msg = input('Your Message\n: ')
@@ -17,7 +17,7 @@ while 1:
         for al in Alphabets:
             if l == al:
                 index = Alphabets.index(al)
-                secretMessage += reversedAlphates[index]
+                secretMessage += reversedAlphabtes[index]
 
         if l == ' ':
             secretMessage += ' '
